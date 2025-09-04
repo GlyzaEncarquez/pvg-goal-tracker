@@ -14,7 +14,9 @@ const Create = () => {
       goal,
       progress:0
     })
-    
+    setGoal('')
+    Keyboard.dismiss()
+    router.push('/goals')
   }
 
   return (
